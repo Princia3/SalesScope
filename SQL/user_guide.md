@@ -11,7 +11,7 @@ CREATE DATABASE SalesScope;
 Connect to the SalesScope database, then create the following tables.
 Make sure column names exactly match the CSV headers.
 
-### 📍 Table 1: order_location
+ 📍 Table 1: order_location
 CREATE TABLE order_location (
     index SERIAL PRIMARY KEY,
     country TEXT NOT NULL,
@@ -20,7 +20,7 @@ CREATE TABLE order_location (
     region TEXT
 );
 
-### 📍 Table 2: orders
+ 📍 Table 2: orders
 CREATE TABLE orders (
     order_id         VARCHAR,
     order_date       DATE,
@@ -40,7 +40,7 @@ CREATE TABLE orders (
     discount_percent NUMERIC
 );
 
-### 📍 Table 3: products
+📍 Table 3: products
 CREATE TABLE products (
     index        SERIAL PRIMARY KEY,      
     product_id   VARCHAR(100),             
@@ -50,7 +50,7 @@ CREATE TABLE products (
     list_price   NUMERIC(10,2)
 );
 
-### 📍 Table 4: monthly_profit
+📍 Table 4: monthly_profit
 CREATE TABLE monthly_profit (
     order_date    VARCHAR,      -- Format: YYYY-MM
     monthly_price NUMERIC
