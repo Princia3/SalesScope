@@ -85,11 +85,18 @@ Repeat this process for all 4 tables:
 ## 4️⃣ Verify Data
 
 Open the Query Tool and check your data with:
-
+```bash
 - SELECT * FROM orders;
+```
+```bash
 - SELECT * FROM products;
+```
+```bash
 - SELECT * FROM order_location;
+```
+```bash
 - SELECT * FROM monthly_profit;
+```
 
 ## ✅ Notes
 
