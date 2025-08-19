@@ -12,6 +12,7 @@ Connect to the SalesScope database, then create the following tables.
 Make sure column names exactly match the CSV headers.
 
  📍 Table 1: order_location
+ ```bash
 CREATE TABLE order_location (
     index SERIAL PRIMARY KEY,
     country TEXT NOT NULL,
@@ -19,8 +20,10 @@ CREATE TABLE order_location (
     postal_code NUMERIC NOT NULL,
     region TEXT
 );
+```
 
  📍 Table 2: orders
+ ```bash
 CREATE TABLE orders (
     order_id         VARCHAR,
     order_date       DATE,
@@ -39,8 +42,10 @@ CREATE TABLE orders (
     quantity         INT,
     discount_percent NUMERIC
 );
+```
 
 📍 Table 3: products
+```bash
 CREATE TABLE products (
     index        SERIAL PRIMARY KEY,      
     product_id   VARCHAR(100),             
@@ -49,12 +54,15 @@ CREATE TABLE products (
     cost_price   NUMERIC(10,2),
     list_price   NUMERIC(10,2)
 );
+```
 
 📍 Table 4: monthly_profit
+```bash
 CREATE TABLE monthly_profit (
     order_date    VARCHAR,      -- Format: YYYY-MM
     monthly_price NUMERIC
 );
+```
 
 ## 3️⃣ Import Data into Tables
 
