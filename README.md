@@ -1,2 +1,44 @@
-# SalesScope
-An end-to-end beginner data analytics project that builds an interactive sales dashboard with dynamic KPIs and top customers/products. This project demonstrates how to take raw sales data → clean it → model it → analyze KPIs → and finally visualize everything in Power BI/using matplotlib.
+### SalesScope
+
+An end-to-end beginner-friendly Data Analytics Project that transforms raw sales data into meaningful insights.  
+This project walks through data cleaning → modeling → KPI analysis → visualization, combining Python libraries (Pandas, Matplotlib, Seaborn) with Power BI dashboards for interactivity.
+
+---
+
+## 🚀 Project Workflow
+
+- **Data Collection**
+  - Raw sales dataset (orders, products).
+- **Data Preprocessing**
+  - Removed duplicates.
+  - Handled missing values.
+  - Created calculated fields like Revenue, Profit.
+- **Exploratory Data Analysis (EDA)**
+  - Sales trends over time.
+  - Profitability by category/region.
+  - Top products.
+  - State-wise shipment analysis.
+- **KPI Modeling**
+  - Revenue
+  - Profit
+
+---
+
+## 📊 Visualization  
+
+### 🔹 Python (Matplotlib + Seaborn)  
+Static insights from the dataset were visualized using Matplotlib & Seaborn.
+ 
+  ![Visuals](../SalesScope/Screenshots/python/1.png)
+
+  ![Visuals](../SalesScope/Screenshots/python/2.png)
+
+  ![Visuals](../SalesScope/Screenshots/python/3.png)
+ 
+  ![Visuals](../SalesScope/Screenshots/python/4.png)
+
+  ![visuals](../SalesScope/Screenshots/python/newplot.png)
+---
+
+### 🔹 Power BI  
+Interactive dashboards for dynamic KPI analysis (to be added).
