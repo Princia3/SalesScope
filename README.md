@@ -29,15 +29,15 @@ This project walks through data cleaning → modeling → KPI analysis → visua
 ### 🔹 Python (Matplotlib + Seaborn)  
 Static insights from the dataset were visualized using Matplotlib & Seaborn.
  
-  ![Visuals](../SalesScope/Screenshots/python/1.png)
+  ![Visuals](../Screenshots/python/1.png)
 
-  ![Visuals](../SalesScope/Screenshots/python/2.png)
+  ![Visuals](../Screenshots/python/2.png)
 
-  ![Visuals](../SalesScope/Screenshots/python/3.png)
+  ![Visuals](../Screenshots/python/3.png)
  
-  ![Visuals](../SalesScope/Screenshots/python/4.png)
+  ![Visuals](../Screenshots/python/4.png)
 
-  ![visuals](../SalesScope/Screenshots/python/newplot.png)
+  ![visuals](../Screenshots/python/newplot.png)
 ---
 
 ### 🔹 Power BI  
